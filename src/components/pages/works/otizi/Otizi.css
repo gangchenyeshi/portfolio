@@ -1,0 +1,199 @@
+.hero-otizi-container,
+.plan-container-otizi,
+.persona-container-otizi,
+.problem-statement-container-otizi,
+.userflow-container-otizi,
+.mid-fi-container-otizi,
+.design-feedback-container-otizi,
+.next-steps-conclusion-container-otizi
+ {
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+.hero-otizi-container {
+    height: 87vh;
+    margin-top: 80px;
+}
+
+.hero-otizi {
+    padding: 0px;
+    height: 80vh;
+}
+
+.hero-text {
+    color: var(--primary-white);
+    background-color: transparent;
+}
+
+.hero-otizi img {
+    max-width: 320px;
+}
+
+.hero-otizi h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 2rem auto;
+}
+
+.hero-otizi p {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px;
+    padding: 8px 0px !important;
+}
+.photos-userflow {
+    padding:0px;
+}
+/* introduction */
+.sub-heading-diet {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sub-title-para {
+    font-weight: 700;
+}
+
+.details {
+    margin: 20px;
+}
+
+.details ul {
+    margin-left: 1rem;
+}
+
+.details ul li {
+    margin-top: 8px
+}
+
+/* Plan */
+.plan-container-otizi {
+    padding: 12px auto;
+}
+
+.process-card h6 {
+    color: var(--primary-dark);
+    font-size: medium;
+}
+
+/* research */
+.interview-box {
+    padding: 12px;
+}
+.interview-row {
+    padding: 0px 12px 0px 0px !important;
+}
+.interviews {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: auto 8px;
+}
+
+/* persona */
+.photos {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+/* competative */
+
+.competative-heading {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 8px;
+}
+
+.competative-heading h4 {
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.competative-heading p {
+    font-weight: 500;
+    color: var(--primary-dark);
+}
+/* userflow */
+
+/* style guide */
+.style-photo {
+    padding: 16px;
+    border: 1px solid Black;
+    border-radius: 4px;
+}
+
+/* prototype */
+.prototype-container-otizi{
+    background-color: rgb(90, 90, 90);
+    color: #ffffff;
+}
+.prototype-container-otizi .prototype-image {
+    max-height: 300px;
+    transition: all .2s ease-in-out;
+}
+
+.prototype-container-otizi .prototype-image:hover {
+    transform: scale(1.10);
+}
+.embed-responsive-item {
+    /* width: 49vw;
+    height: 50vh; */
+}
+/* thank */
+.thanks-image-otizi {
+    max-height: 250px;
+}
+
+@media only screen and (max-width: 780px) {
+
+    /* herosection */
+    .hero-otizi img {
+        max-width: 240px;
+    }
+
+    .color-bar {
+        height: 16px !important;
+    }
+
+    .hero-otizi h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .hero-otizip {
+        font-size: 16px;
+        margin: auto;
+    }
+
+    /* introduction */
+    .heading {
+        margin: 8px auto;
+    }
+
+    .sub-heading-diet {
+        font-weight: 700;
+        font-size: 18px !important;
+    }
+
+    .details h3 {
+        font-size: 1.5rem;
+    }
+
+    /* competative */
+    .competative-heading {
+        display: none !important;
+    }
+    .competative-heading h4 {
+        font-size: small;
+    }
+
+    .competative-heading p {
+        font-size: small;
+        margin: 4px;
+    }
+}

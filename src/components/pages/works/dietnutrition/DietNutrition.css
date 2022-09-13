@@ -1,0 +1,104 @@
+.hero-container,
+.diet-container,
+.survey-interview-container,
+.usability-testing-diet-container,
+.styleguide-diet-container {
+    background-color: var(--primary-diet);
+    color: #0B3B28;
+}
+
+/* mid-fi testing */
+.mid-fi-diet-container {
+    background-color: #f6f6f6;
+}
+
+.hero-container {
+    height: 88vh;
+    margin-top: 80px;
+}
+
+.diet-title h3 {
+    font-weight: 800;
+    font-size: 48px;
+    opacity: 0.2;
+}
+
+.diet-title h2 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/* hr {
+    width: 50vw;
+    margin: auto !important;
+} */
+/* process */
+.diet-container {
+    margin-top: 8px;
+}
+
+.card-img-icon {
+    height: 50px !important;
+}
+
+
+/* competitive */
+.competitor-logo {
+    max-height: 80px;
+    min-height: 80px;
+    height: 80px;
+}
+.sub-heading6 {
+    font-weight: 600;
+}
+/* usability testing */
+.sub-heading5 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+/* interviews */
+.survey-card, .style-card {
+    margin: auto !important;
+}
+/* styleguide */
+.style-image {
+    margin: 0px;
+}
+
+@media only screen and (max-width: 780px) {
+    p {
+        font-size: 14px !important;
+    }
+
+    .diet-title h3 {
+        font-size: 40px;
+    }
+
+    .diet-title h2 {
+        font-size: 20px;
+    }
+
+    .process-card {
+        margin-bottom: 8px;
+    }
+
+    /* process */
+    .process-container-diet {
+        margin-top: 0px;
+    }
+    .card-img-icon {
+        height: 32px !important;
+    }
+
+    .card-title {
+        font-size: 10px !important;
+    }
+
+    
+    /* competotive */
+    .competitor-logo {
+        max-height: 50px;
+        min-height: 50px;
+        height: 50px;
+    }
+}

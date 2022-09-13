@@ -1,0 +1,227 @@
+.big-container {
+    padding: 0px;
+}
+
+.e-commerce-container,
+.interview-container,
+.ideation-container,
+.lo-fi-container,
+.mid-fi-container,
+.final-design-container {
+    background-color: #D3CEC4;
+    color: #0B3B28;
+}
+
+.e-commerce-container {
+    height: 88vh;
+    margin-top: 80px;
+}
+
+.colors {
+    padding: 0px !important;
+}
+
+#parallex {
+    color: #0B3B28;
+}
+
+.hero {
+    padding: 0px;
+    height: 80vh;
+}
+
+.hero-text {
+    background-color: transparent;
+}
+
+.hero img {
+    max-width: 280px;
+}
+
+.hero h1 {
+    color: #0B3B28;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.hero p {
+    color: #0B3B28;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px;
+    padding: 8px 0px !important;
+}
+
+.title h2 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.title h3 {
+    font-weight: 800;
+    font-size: 40px;
+    opacity: 0.1;
+    margin-top: -51px;
+    letter-spacing: .2rem;
+}
+
+
+
+/*project intro*/
+.intro-container {
+    height: 100vh;
+    padding: 24px;
+    color: #0B3B28;
+}
+
+
+
+.intro p,
+.about-project p {
+    font-size: 14px;
+}
+
+.about-project p {
+    margin: 4px;
+
+}
+
+/* process*/
+.process-container-ecommerce{
+    background-color: #D3CEC4;
+    color: #0B3B28;
+    margin-top: 140px;
+}
+
+.card-img-icon {
+    height: 50px !important;
+}
+
+
+/* market research */
+.quote {
+    font-style: italic;
+}
+
+/* ideation */
+.ideation {
+    text-align: center;
+}
+
+/* user flow */
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* concept testing */
+.concept-testing-container {
+    background-color: #f6f6f6;
+}
+
+.test-screen {
+
+    padding: 40px;
+
+    /* margin-bottom: 40px; */
+}
+
+/* prototype */
+.prototype-container {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.prototype-container .prototype-text {
+    text-align: center;
+}
+
+.prototype-container .prototype-image {
+    max-height: 300px;
+    transition: all .2s ease-in-out;
+}
+
+.prototype-container .prototype-image:hover {
+    transform: scale(1.10);
+}
+
+/* //button */
+.project-button {
+    min-width: 200px;
+}
+
+.thanks-container .thanks-image {
+    width: 350px;
+    margin-top: -100px;
+}
+
+@media only screen and (max-width: 780px) {
+    .intro-container {
+        padding: 0px;
+    }
+
+    .hero img {
+        max-width: 240px;
+    }
+
+    .e-commerce-container .colors-bar {
+        height: 16px;
+    }
+
+    .hero h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+
+    .title h3 {
+        font-weight: 800;
+        font-size: 24px;
+        margin-top: -36px;
+        letter-spacing: .1rem;
+    }
+
+    /* process */
+    .process-container-ecommerce{
+        margin-top: 180px;
+    }
+
+    .card-img-icon {
+        height: 32px !important;
+    }
+
+    .card-title {
+        font-size: 10px !important;
+    }
+
+    /* Market research */
+    .market-container .quote {
+        font-size: 16px;
+    }
+
+    p,
+    li {
+        font-size: 14px  !important;
+    }
+
+    /* surve & interviews */
+    .interview-container {
+        /* margin-top: 50px; */
+    }
+
+    /* //button */
+    .project-button-container button {
+        min-width: 90vw;
+        font-size: medium;
+    }
+}

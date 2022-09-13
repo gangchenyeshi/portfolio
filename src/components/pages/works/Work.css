@@ -1,0 +1,36 @@
+.work {
+  background-color: transparent;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
+.work h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+  
+  .project-card {
+    min-height: 420px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .focus {
+    transition: transform 0.3s;
+    
+  }
+  .focus:hover {
+    transform: scale(1.05);
+  }
+  .title {
+    text-transform: uppercase;
+  }
+  .title-card {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  @media only screen and (max-width: 780px) {
+    
+  }

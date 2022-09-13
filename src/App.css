@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f5b921;
+  --primary-dark: #000;
+  --primary-diet: #FDE598;
+  --primary-hover-green: #1e5215;
+  --primary-blue: #472ED8;
+  
+}
+p {
+  font-size: 18px !important;
+}
+.sub-heading {
+  margin: 16px auto;
+}
+@media only screen and (max-width: 780px) {
+  p{
+        font-size: 14px  !important;
+    }
+    .sub-heading {
+      font-size: 18px;
+  }
+}

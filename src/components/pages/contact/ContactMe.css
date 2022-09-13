@@ -1,0 +1,40 @@
+.contact {
+    background-color: transparent;
+    font-size: 0.9rem;
+    height: 80vh;
+    position: relative;
+    background: url("../../../assets/background/contact.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.contact h1 {
+    color: var(--primary-orange);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+}
+.contact-box {
+    height: 57vh;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: justify;
+    justify-content: space-between;
+}
+.contact-box .button-row {
+    margin: 10%;
+}
+.my-buttons button{
+    min-width: 120px;
+    min-height: 50px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 780px) {
+    .my-buttons button{
+        min-width: 120px;
+        min-height: 40px;
+        font-weight: 600;
+    }
+}
